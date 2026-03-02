@@ -44,7 +44,7 @@ let download = Math.floor(Math.random() * 1099511627776);
 let upload = download;
 let expire = Math.floor(timestamp / 1000);
 
-let nat64 = true;
+let nat64 = false;
 let nat64Prefix;
 let nat64Prefixs = [
     '2602:fc59:b0:64::'
